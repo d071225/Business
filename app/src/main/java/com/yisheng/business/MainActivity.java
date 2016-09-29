@@ -124,7 +124,6 @@ public class MainActivity extends BaseActivity implements OnClickListener,MyFrag
                 setTabSelection(1);
                 break;
             case R.id.setting_layout:
-                // 当点击了设置tab时，选中第4个tab
                 setTabSelection(2);
                 break;
             default:
