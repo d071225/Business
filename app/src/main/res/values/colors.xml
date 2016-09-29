@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_ev_border_color">#CCCCCC</color>
+    <color name="default_ev_password_color">#CCCCCC</color>
+    <integer name="default_ev_password_length">6</integer>
+
+    <color name="login_button_normal">#f38100</color>
+    <color name="login_button_press">#c46800</color>
+    <!--<color name="login_button_normal">#007ecb</color>-->
+    <!--<color name="login_button_press">#0067a6</color>-->
+
+    
+    <!-- 主页面 -->
+	 <color name="main_normal">#f38100</color>
+	  <color name="main_press">#c46800</color>
+	  <color name="digital">#292929</color>
+	  
+    <color name="title_color">#22232a</color>
+    <color name="new_title_color">#51B0D6</color>
+    <color name="fragment_color">#686f78</color>
+    <color name="fragment_color_un">#585c65</color>
+    <color name="settlement_color">#dbdadf</color>
+    <color name="white">#FFFFFF</color>
+    <color name="alphiwhite">#00FFFFFF</color>
+    <color name="green">#25ba30</color>
+    <color name="blue">#00b7ee</color>
+    <color name="black">#000000</color>
+    <color name="title">#CCCCCC</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="bg_color">#efefef</color>
+    <color name="info_panel_bg">#ffeeeeee</color>
+    <color name="edit_color">#ff545454</color>
+    <color name="shape_back">#f5f5f5</color>
+    <color name="brand_bg_color">#ffeeeeee</color>
+    <color name="shape_back_person">#ffebebeb</color>
+    <color name="shape_button">#ff666666</color>
+    <color name="layout_green">#ff3399ff</color>
+    <color name="transparent">#9000</color>
+    <color name="green_button_normal">#07be04</color>
+    <color name="green_button_press">#05ac04</color>
+    <color name="line">#dadada</color>
+    <color name="titletext">#ffffc125</color>
+    <color name="ablack">#88000000</color>
+    <color name="coupon_normal">#fff36111</color>
+    <color name="coupon_press">#ffc54c0b</color>
+    <color name="coupon_fun_press">#ffb24003</color>
+    <color name="reserve_normal">#ffff8d13</color>
+    <color name="reserve_press">#ffbd690e</color>
+    <color name="reserve_fun_press">#ff9d5200</color>
+    <color name="news_normal">#ff7baa37</color>
+    <color name="news_press">#ff688f2f</color>
+    <color name="news_fun_press">#ff5e8525</color>
+    <color name="personal_normal">#ff518795</color>
+    <color name="personal_press">#ff46737f</color>
+    <color name="personal_fun_press">#ff2c616f</color>
+    <color name="setting_normal">#ffa8a89b</color>
+    <color name="setting_press">#ff8f8f85</color>
+    <color name="setting_fun_press">#ff7d7d7d</color>
+    <color name="buttom_bg">#ff515151</color>
+    <color name="coupon_detail_text">#ff666666</color>
+    <color name="coupon_detail_price">#ffff6600</color>
+    <color name="shape_price_stroke">#ff999999</color>
+    <color name="collection_btn_normal">#ffff8d13</color>
+    <color name="collection_btn_press">#ffe26500</color>
+    <color name="reserver_btn_normal">#ff1475b9</color>
+    <color name="reserver_btn_press">#ff06558c</color>
+    <color name="register_btn_normal">#ffcccccc</color>
+    <color name="logout">#ffa40000</color>
+    <color name="logout_press">#ff871313</color>
+    <color name="progressbar_bg">#ffF5F5F5</color>
+    <color name="progressbar_login_setting">#ff18c6ff</color>
+    <color name="remind">#ff3366cc</color>
+    <color name="text_bg_top">#5ba331</color>
+    <color name="text_bg_buttom">#407421</color>
+    <color name="click_bg_top">#282929</color>
+    <color name="click_bg_buttom">#0E0F0F</color>
+    <color name="left_list_click_bg">#2E2624</color>
+
+    <!-- 日历 -->
+    <color name="calendar_background">#000000</color>
+    <color name="recordremind_background">#FFFFFF</color>
+    <color name="border_color">#FFFFFF</color>
+    <color name="weekname_color">#FFFFFF</color>
+    <color name="day_color">#FFFFFF</color>
+    <color name="inner_grid_color">#FFFFFF</color>
+    <color name="prev_next_month_day_color">#999999</color>
+    <color name="recordremindtext_color">#000000</color>
+    <color name="current_day_color">#FF0000</color>
+    <color name="today_background_color">#FF0000</color>
+    <color name="today_color">#FFFFFF</color>
+    <color name="sunday_saturday_color">#FF0000</color>
+    <color name="sunday_saturday_prev_next_month_day_color">#990000</color>
+    <color name="bgcolor">#ffffff</color>
+    <color name="txtcolor">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="Calendar_WeekBgColor">#EFE7DE</color>
+    <color name="Calendar_WeekFontColor">#8C8A8C</color>
+    <color name="Calendar_DayBgColor">#F7F7F7</color>
+    <color name="isHoliday_BgColor">#E0E0E0</color>
+    <color name="unPresentMonth_FontColor">#8C8A8C</color>
+    <color name="isPresentMonth_FontColor">#000000</color>
+    <color name="isToday_BgColor">#EBDCC1</color>
+    <color name="specialReminder">#FF0000</color>
+    <color name="commonReminder">#BDBAB5</color>
+
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="translucent_background">#80000000</color>
+    <!-- 聊天 -->
+    <color name="time_color">#666666</color>
+    <color name="txt_color">#666666</color>
+    <color name="txt_color_grey">#333333</color>
+    <color name="txt_color_no">#d3d3d3</color>
+    <color name="txt_btn_color">#d2d5db</color>
+    <color name="txt_bg_color">#d4d4d4</color>
+
+    <!-- alipay -->
+    <color name="background_color">#ffd1dce9</color>
+    <color name="text_color">#ff666666</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="BgColor">#ffd1dce9</color>
+
+    <color name="LoginBgColor">#111D82D2</color>
+    <!-- 实时交易背景-->
+    <color name="home_text_bg_color">#ffBAD8F2</color>
+    <!-- 交易金额背景-->
+    <color name="home_ll_bg_color">#ff1D82D2</color>
+    <!-- 首页listv分类背景-->
+    <color name="home_text_bg_color_gray">#ffF1F0F6</color>
+    <!-- 意见反馈-->
+    <color name="suggestion_edit_color">#ff212733</color>
+    <!-- 登录按钮-->
+    <color name="button_selected">#ff104ea1</color>
+</resources>

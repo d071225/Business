@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:scaleType="fitXY"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/titletop"
+        layout="@layout/suggestion_title_bar" />
+    <EditText android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/suggestion_info"
+        android:hint="请输入您的反馈意见"
+        android:padding="10dp"
+        android:gravity="left|top"
+        android:maxLength="250"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/suggestion_edit_shape"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:textColor="@color/gray"
+        android:id="@+id/suggestion_limit"
+        android:text="限定字数250字"/>
+
+</LinearLayout>

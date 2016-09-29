@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/titletop"
+        layout="@layout/titlebar" />
+    <com.yisheng.view.recycler.RefreshListView
+        android:id="@+id/translation_lv"
+        android:divider="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.yisheng.view.recycler.RefreshListView>
+
+</LinearLayout>
