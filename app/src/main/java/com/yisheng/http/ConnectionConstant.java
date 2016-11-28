@@ -7,6 +7,7 @@ public class ConnectionConstant {
 	 */
 //	 public static final String DEV_DOMAIN = "http://192.168.10.63:8080/tdcctp/";//刘本地
 	 public static final String DEV_DOMAIN = "http://wx.mposbank.com/tdcctp/";//线上
+//	 public static final String DEV_DOMAIN = "http://wx.eposbank.com/tdcctp/";
 //	 public static final String DEV_DOMAIN = "http://192.168.10.137:8088/tdcctp/";
 
 //	/**
@@ -62,7 +63,7 @@ public class ConnectionConstant {
 	/**
 	 * 版本更新
 	 */
-	public static final String CHECKUPDATEURL = DEV_DOMAIN+"app/checkUpdate.tran";
+	public static final String CHECKUPDATEURL = DEV_DOMAIN+"app/ys/checkUpdate.tran";
 
 
 

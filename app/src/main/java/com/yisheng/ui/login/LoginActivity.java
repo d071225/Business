@@ -27,6 +27,8 @@ import com.yisheng.utils.SPUtils;
 import com.yisheng.utils.T;
 import com.yisheng.view.LoadingDialog;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.xutils.common.Callback;
 import org.xutils.http.RequestParams;
 import org.xutils.x;
@@ -60,13 +62,29 @@ public class LoginActivity extends BaseActivity implements OnClickListener {
 				WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 		InitView();
 	}
-
+	public String objectToJson(String name,String password) {
+		JSONObject jsonObject=new JSONObject();
+		try {
+			jsonObject.put("REQ_HEAD", new JSONObject());
+			JSONObject body=new JSONObject();
+			body.put("custMobile", name);
+			body.put("custPwd", password);
+			jsonObject.put("REQ_BODY", body);
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		L.e("对象转json:" + jsonObject.toString());
+		return jsonObject.toString();
+	}
 	public void getDataForService(){
 		username = edit_username.getText().toString().trim();
 		RequestParams params=new RequestParams(ConnectionConstant.LOGINURL);
 //		params.addBodyParameter("custMobile", edit_username.getText().toString().trim());
 //		params.addBodyParameter("custPwd", edit_username.getText().toString().trim());
-		params.addBodyParameter("REQ_MESSAGE", "{\"REQ_HEAD\": {},\"REQ_BODY\": {\"custMobile\":" + username + "," + "\"custPwd\":" + edit_pwd.getText().toString().trim() + "}}");
+		L.e("输入的密码：" + edit_pwd.getText().toString().trim());
+//		params.addBodyParameter("REQ_MESSAGE", "{\"REQ_HEAD\": {},\"REQ_BODY\": {\"custMobile\":" +"\""+username+ "\""+"," + "\"custPwd\":" +"\""+ edit_pwd.getText().toString().trim()+"\"" + "}}");
+		params.addBodyParameter("REQ_MESSAGE", objectToJson(username,edit_pwd.getText().toString().trim()));
 		x.http().post(params, new Callback.CommonCallback<String>() {
 
 			@Override

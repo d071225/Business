@@ -36,7 +36,8 @@ public class Dialoguitls {
         });
         alertDialog.setView(view, 0, 0, 0, 0);
         alertDialog.show();
-//        alertDialog.getWindow().setLayout(300,200);
+//        alertDialog.getWindow().setLayout(DensityUtils.dp2px(MyApplacation.getContext(),300),
+//                DensityUtils.dp2px(MyApplacation.getContext(),200));
     }
     public void showOutDialog(String message){
         builder = new AlertDialog.Builder(context,R.style.MyDialogStyleTop);

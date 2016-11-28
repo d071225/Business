@@ -22,11 +22,11 @@ public class MyApplacation extends Application {
     public void onCreate() {
         super.onCreate();
         x.Ext.init(this);//Xutils初始化
-        L.isDebug=false;
+        L.isDebug=true;
         context = getApplicationContext();
         mHandler =new Handler();
         L.e("初始化数据");
-        JPushInterface.setDebugMode(false);
+        JPushInterface.setDebugMode(true);
         JPushInterface.init(this);
 
     }

@@ -130,6 +130,7 @@ public class ForgetPasswordActivity extends BaseActivity implements View.OnClick
             }
         });
         telPhone = (EditText) findViewById(R.id.phone);
+        telPhone.setText((String) SPUtils.get(MyApplacation.getContext(), "username", ""));
 //        telPhone.addTextChangedListener(textWatcher);
         smscodeEidt = (EditText) findViewById(R.id.edt_smscode);
         submit = (Button) findViewById(R.id.next);
@@ -311,12 +312,12 @@ public class ForgetPasswordActivity extends BaseActivity implements View.OnClick
     }
     @Override
     public void onClick(View v) {
+        phoneNum = telPhone.getText().toString().toString();
         switch (v.getId()){
             case R.id.back:
                 finish();
                 break;
             case R.id.txt_smscode:
-                phoneNum = telPhone.getText().toString().toString();
                 if(phoneNum.equals("")){
                     T.showShort(MyApplacation.getContext(),"手机号不能为空");
                 }else if(phoneNum.length()<11){

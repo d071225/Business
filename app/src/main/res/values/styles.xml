@@ -19,7 +19,7 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>-->
-    <style name="MyDialogStyleTop" parent="android:Theme.Dialog">
+    <style name="MyDialogStyleTop" parent="android:Theme.Holo.Light.Dialog">
 
         <!-- <item name="android:windowAnimationStyle">@style/AnimTop2</item> -->
         <item name="android:windowFrame">@null</item>
